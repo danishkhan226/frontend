@@ -1,0 +1,118 @@
+
+<style>
+  .pagination{
+    display: flex;
+    justify-content: center;   
+    align-items: center;     
+    gap: 7px; 
+  }
+
+  .pagination button{
+    background-color:white;
+    border: 1px solid grey;
+    color: purple;
+  }
+
+  .pagination a{
+    padding: 0px 8px;
+  }
+
+ .btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+  
+  .stretch{
+    background-color: rgb(186, 69, 15);
+    padding: 15px 25px;
+    color: white;
+    font-size: 20px;
+    border:none;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    transition: box-shadow 0.15s,padding 0.5s, font-size 0.5s;
+  }
+
+  .stretch:hover{
+     padding:20px 40px;
+     font-size: 30px;
+  }
+
+
+  .stretch:active{
+    box-shadow: none;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  .shadow{
+    background-color: rgb(186, 69, 15);
+    padding: 15px 25px;
+    color: white;
+    font-size: 20px;
+    border:none;
+    margin-left: 15px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    transition: box-shadow 0.15s, padding 0.5s, font-size 0.5s;
+  }
+
+  .shadow:hover{
+    padding:20px 40px;
+     font-size: 30px;
+  }
+
+
+  .shadow:active{
+    box-shadow: none;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+
+   .count-button{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .count-button button{
+    background-color: rgb(186, 69, 15);
+    padding: 15px 25px;
+    color: white;
+    font-size: 20px;
+    border:none;
+    margin: 0px 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+   }
+
+   .count-button button:hover{
+    padding: 15px 40px;
+    margin: 0px 0px;
+   }
+</style>
+
+<div class="pagination">
+  <button>Back</button>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <button>Next</button>
+</div>
+
+<div class="btn-container">
+  <button class="stretch">Stretch</button>
+  <button class="shadow">Shadow</button>
+</div>
+
+<div class="count-button">
+  <button>One</button>
+  <button>Two</button>
+  <button>Three</button>
+</div>

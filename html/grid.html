@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grid practice</title>
+</head>
+<body>
+    <div style="display: grid; grid-template-columns:100px 100px 200px; ">
+        <div style="background-color:yellow;">100px</div>
+        <div style="background-color: red;">100px <p>Text</p></div>
+        <div style="background-color: blue;">200px</div>
+        <div style="background-color: green;">100px</div>
+    </div>
+
+     <div style="display: grid; grid-template-columns:1fr 1fr 1fr 1fr; margin-top: 30px; column-gap: 20px; row-gap: 10px; ">
+        <div style="background-color:yellow;">col1</div>
+        <div style="background-color: red;">col2</div>
+        <div style="background-color: blue;">col3</div>
+        <div style="background-color: red;">col4</div>
+        <div style="background-color: blue;">col1</div>
+        <div style="background-color:yellow;">col2</div>
+        <div style="background-color: red;">col3</div>
+        <div style="background-color: blue;">col4</div>
+    </div>
+
+    <div style="display: grid; grid-template-columns:100px 1fr 2fr; margin-top: 30px; ">
+        <div style="background-color:yellow;">100px</div>
+        <div style="background-color: red;">1fr</div>
+        <div style="background-color: blue;">2fr</div>
+    </div>
+
+     <div style="display: grid; grid-template-columns:1fr 1fr 1fr; margin-top: 30px; column-gap: 20px; row-gap: 40px;">
+        <div style="background-color:yellow; height:200px">1fr</div>
+        <div style="background-color: red;height:200px">1fr</div>
+        <div style="background-color: blue;height:200px">1fr</div>
+        <div style="background-color: red;height:200px">1fr</div>
+        <div style="background-color: blue;height:200px">1fr</div>
+        <div style="background-color:yellow;height:200px">1fr</div>
+    </div>
+</body>
+</html>
